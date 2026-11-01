@@ -7,4 +7,25 @@ M. Ahmed. "Maternal Health Risk," UCI Machine Learning Repository, 2020. [Online
 
 Folder structure: README.md explains the project introduction
 
-Setup steps, commands to run work coming soon!
+Setup
+Create and activate a virtual environment:
+
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+Preprocessing
+Missing value analysis
+Duplicate detection and removal
+Outlier analysis using the IQR method
+Target label encoding
+
+Models
+Baseline:
+Stratified Dummy Classifier
+Simple Learned Baseline:
+Decision Tree (max_depth=3)
+Validation:
+5-Fold Stratified Cross Validation
+
+Assistance Declaration
+Generative AI tools were used for methodological guidance, debugging support and drafting documentation. All code, analysis and conclusions were reviewed and validated by the author.
